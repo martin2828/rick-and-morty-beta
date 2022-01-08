@@ -18,6 +18,7 @@ const getApi = async () => {
             let html = `
             <div class="card" style="width: 18rem;">
                 <img src="${json.results[count].image}" loading="lazy" class="img-fluid">
+                <br>
                 <div class="card-body">
                     <b class="card-title" style="padding: 4px;">${json.results[count].name}</b>
                     <br>
@@ -64,6 +65,7 @@ $btn.addEventListener("click", async () => {
                 let html = `
                 <div class="card" style="width: 18rem;">
                     <img src="${json.results[count].image}" loading="lazy" class="img-fluid">
+                    <br>
                     <div class="card-body">
                         <b class="card-title" style="padding: 4px;">${json.results[count].name}</b>
                         <br>
