@@ -29,7 +29,7 @@ const getApi = async () => {
                     <br>
                     <div class="first" style="color: #9E9E9E; padding: 15px;">First seen in: <br><span style="color: #f5f5f5; padding: 15px;">${jsonFirstSeen.name}</span></div>
                     <br>
-                    <br>
+                    <span>ㅤㅤ</span>
                 </div>
             </div>
             `
@@ -75,7 +75,7 @@ $btn.addEventListener("click", async () => {
                         <br>
                         <div class="first" style="color: #9E9E9E; padding: 15px;">First seen in: <br><span style="color: #f5f5f5; padding: 15px;">${jsonFirstSeen.name}</span></div>
                         <br>
-                        <br>
+                        <span>ㅤㅤ</span>
                     </div>
                 </div>
                 `
